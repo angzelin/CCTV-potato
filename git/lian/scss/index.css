@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #f0f0f0; }
+
+header {
+  width: 3.2rem;
+  height: 0.4rem;
+  color: white;
+  background-color: #3d59a4;
+  display: flex;
+  align-items: center; }
+  header h3 {
+    font-size: 0.24rem;
+    display: flex;
+    align-items: center;
+    margin-left: 88px; }
+    header h3 img {
+      width: 0.25rem;
+      height: 0.25rem; }
+  header span {
+    font-size: 0.15rem;
+    display: flex;
+    align-items: center; }
+    header span img {
+      width: 0.16rem;
+      height: 0.20rem; }
+
+.swiper {
+  width: 3.2rem;
+  height: 1.2rem; }
+  .swiper .swiper-wrapper {
+    width: 3.2rem;
+    height: 1.2rem; }
+    .swiper .swiper-wrapper .swiper-slide {
+      width: 3.2rem;
+      height: 1.2rem; }
+      .swiper .swiper-wrapper .swiper-slide img {
+        width: 3.2rem;
+        height: 1.2rem; }
+  .swiper .swiper-pagination {
+    top: 0.1rem; }
+
+.foot {
+  width: 3.2rem;
+  margin-top: 0.18rem; }
+  .foot .dn {
+    width: 3.04rem;
+    height: 1.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .foot .dn .img {
+      width: 1.5rem;
+      height: 1.5rem; }
+    .foot .dn .dn2 {
+      width: 1.5rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between; }
+      .foot .dn .dn2 .ni1, .foot .dn .dn2 .nia {
+        width: 1.5rem;
+        height: 0.72rem; }
+  .foot .dn3 {
+    width: 3.04rem;
+    height: 0.75rem;
+    margin: auto;
+    display: flex;
+    margin-top: 0.04rem; }
+    .foot .dn3 img {
+      height: 0.75rem; }
+
+.zzz {
+  width: 3.20rem;
+  height: 1.01rem;
+  margin-top: 0.18rem; }
+  .zzz .div1 {
+    width: 2.95rem;
+    height: 0.35rem;
+    font-size: 0.17rem;
+    color: white;
+    font-weight: 900;
+    background-color: #5d9cec;
+    padding-left: 0.1rem;
+    margin: auto;
+    display: flex;
+    align-items: center; }
+  .zzz .div2 {
+    width: 3.05rem;
+    height: 0.5rem;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto; }
+    .zzz .div2 .di1, .zzz .div2 .di2 {
+      width: 1.52rem;
+      height: 0.5rem;
+      background-color: white;
+      font-size: 0.2rem;
+      font-weight: 500;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .zzz .div2 .di1 span, .zzz .div2 .di2 span {
+        display: block; }
+      .zzz .div2 .di1 img, .zzz .div2 .di2 img {
+        width: 0.22rem;
+        height: 0.26rem; }
+    .zzz .div2 .di, .zzz .div2 .div {
+      width: 1.52rem;
+      height: 0.2rem;
+      background-color: white; }
+      .zzz .div2 .di span, .zzz .div2 .div span {
+        display: block;
+        margin-left: 0.42rem;
+        font-size: 0.1rem; }
+
+/*# sourceMappingURL=index.css.map */

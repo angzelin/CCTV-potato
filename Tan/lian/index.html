@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="scss/index.css"/>
+		<link rel="stylesheet" type="text/css" href="js/swiper.min.css"/>
+		<script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h3><img src="img/hea-1.PNG"/>融360</h3>
+				<span style="margin-left: 0.36rem;">登录</span>
+				<span style="margin-left: 0.1rem;"><img src="img/hea-2.PNG"/>北京</span>
+			</header>
+			
+			<div class="swiper-container swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/lun.PNG" alt="" /></div>
+					<div class="swiper-slide"><img src="img/lun.PNG" alt="" /></div>
+					<div class="swiper-slide"><img src="img/lun.PNG" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			
+			<footer class="foot">
+					<div class="dn">
+						<img src="img/root-1.PNG" alt=""  class="img"/>
+						<div class="dn2">
+							<img src="img/root-2.PNG" alt=""  class="ni1"/>
+							<img src="img/root-2.PNG" alt="" class="nia"/>
+						</div>
+					</div>
+					<div class="dn3">
+						<img src="img/root-5.PNG" alt="" style="width: 1.5rem;"/>
+						<img src="img/root-4.PNG" alt="" style="width: 0.74rem;margin-left: 0.04rem;"/>
+						<img src="img/root-.PNG" alt="" style="width: 0.74rem;margin-left: 0.04rem;"/>
+					</div>
+			</footer>
+			<div class="zzz">
+				<div class="div1">贷款</div>
+				<div class="div2">
+					<div class="di1">
+						<img src="img/root-6.PNG"/>
+							<span>热门贷款</span>
+						
+					</div>
+					<div class="di2">
+						<img src="img/root-6.PNG"/>
+							<span>帮我推荐</span>
+						
+					</div>
+					<div class="di">
+							<span>万家贷款等你选择</span>
+						</div>
+						<div class="div">
+							<span>1分钟找到合适贷款</span>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script>
+    (function () {
+        size();
+        window.onresize = function () {
+            size();
+        }
+        function size() {
+            var winW = document.documentElement.clientWidth || document.body.clientWidth;
+            document.documentElement.style.fontSize =  (winW / 320)*100 + "px";
+        }
+    })()
+    var swiper=new Swiper('.swiper',{
+    	autoplay:1000,
+    	loop:true,
+    	pagination: '.swiper-pagination',
+    })
+</script>
